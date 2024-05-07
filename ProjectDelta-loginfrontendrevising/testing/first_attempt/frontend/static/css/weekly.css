@@ -1,0 +1,29 @@
+/* 
+    CSS File that corresponds to overlapapp.com/calendar/weekly
+*/
+div.daily {
+    /* div coloring */
+    border: 1ch;
+    border-radius: 1ch;
+    border-color: black;
+    background-color: black;
+
+    /* Text Properties */
+    text-align: center;
+    color: white; 
+
+    /* Sizing and Positioning*/
+    position: relative;
+    width: 10%;
+    height: 50%;
+    float: left;
+}
+
+#sunday {
+    position: relative;
+    margin-left: 15%;
+}
+#saturday {
+    position: relative;
+    margin-right: 15%;
+}

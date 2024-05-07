@@ -1,0 +1,51 @@
+{% extends 'calendar/calendar.html' %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/weekly.css' %}" />
+{% endblock %}
+
+{% block calendar_ui %}
+    <!-- Div for Showing Sunday -->
+    <div id="sunday" class="daily">
+        <p>Sunday</p>
+
+    </div>
+
+    <!-- Div for Showing Monday -->
+    <div id="monday" class="daily">
+        <p>Monday</p>
+
+    </div>
+
+    <!-- Div for Showing Tuesday -->
+    <div id="tuesday" class="daily">
+        <p>Tuesday</p>
+
+    </div>
+
+    <!-- Div for Showing Wednesday -->
+    <div id="wednesday" class="daily">
+        <p>Wednesday</p>
+
+    </div>
+
+    <!-- Div for Showing Thursday -->
+    <div id="thursday" class="daily">
+        <p>Thursday</p>
+
+    </div>
+
+    <!-- Div for Showing Friday -->
+    <div id="friday" class="daily">
+        <p>Friday</p>
+
+    </div>
+
+    <!-- Div for Showing Saturday -->
+    <div id="saturday" class="daily">
+        <p>Saturday</p>
+
+    </div>
+{% endblock %}

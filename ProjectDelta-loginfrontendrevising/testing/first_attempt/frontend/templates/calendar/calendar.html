@@ -1,0 +1,42 @@
+{% extends '../base/base.html' %}
+
+{% load static %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+    <!-- Top Section of Calendar -->
+    {% block template_header %}
+        <p>Overlap!!!</p>
+        <p>User: {{ user }}</p>
+    {% endblock %}
+
+    <!-- Middle Section filled in by child templates -->
+    {% block calendar_ui %}
+    {% endblock %}
+
+    <!-- Left OverLap (Don't remember what it is) -->
+    <!-- https://user-images.githubusercontent.com/22625839/46272868-0eeff680-c521-11e8-871c-99c022fee176.png -->
+    {% block left_overlap %}
+    {% endblock %}
+
+    <!-- Right Overlap (Don't Remember what it is) -->
+    <!-- https://user-images.githubusercontent.com/22625839/46272871-131c1400-c521-11e8-84cf-36ced69153a0.png -->
+    {% block right_overlap %}
+    {% endblock %}
+
+    <!-- Top Overlap (Don't remember what it is) -->
+    <!-- https://user-images.githubusercontent.com/22625839/46272878-16170480-c521-11e8-953c-d256a0d941a1.png -->
+    {% block top_overlap %}
+    {% endblock %}
+
+    <!-- Center Overlap (Don't remember what it is) -->
+    <!-- https://user-images.githubusercontent.com/22625839/46272892-1fa06c80-c521-11e8-81d0-1795b4ad1ac5.png -->
+    {% block center_overlap %}
+    {% endblock %}
+
+    <!-- Footer for both calendar screens -->
+    {% block template_footer %}
+    {% endblock %}
+{% endblock %}
